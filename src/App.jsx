@@ -64,7 +64,7 @@ export default function App() {
 
   const generateAIContent = async (prompt) => {
     // IMPORTANT: Paste your actual Google AI Studio API Key between the quotes below in GitHub!
-    const apiKey = ""; 
+    const apiKey = "AQ.Ab8RN6IJ_wuS6fWlNfhPGrLTrgX9Jo6X50JkQeL4gBGQq1USqg"; 
     const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
     const payload = { contents: [{ parts: [{ text: prompt }] }] };
 
